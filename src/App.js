@@ -3,6 +3,7 @@ import "./App.css";
 import Home from "./Pages/Home";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
+import ViewCard from "./components/ViewCard";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <Routes>
         <Route path="/"  element ={<Home/>} /> 
+        <Route path="/view/:id"  element ={<ViewCard/>} /> 
       </Routes>
       <Footer />
     </div>
