@@ -46,7 +46,7 @@ function ViewCard() {
             {/* Modal */}
             <div>
               <Button variant="primary btn-dark" onClick={handleShow}>
-                Launch demo modal
+              Operating Hours
               </Button>
 
               <Modal show={show} onHide={handleClose}>
