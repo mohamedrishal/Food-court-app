@@ -20,12 +20,12 @@ function Home() {
     <>
       <div className="d-flex justify-content-center align-items-center mt-5 w-100">
         {
-          loading && error? 
+          loading && error ?
           <div>
                 <Spinner animation="border" variant="dark" /><span>Loading...</span>
           </div> 
           :
-          <div><span>error</span></div>
+          <div><span>{error}</span></div>
         }
       </div>
 
